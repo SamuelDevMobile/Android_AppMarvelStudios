@@ -42,8 +42,6 @@ class CharacterListFragment : Fragment() {
         loadSpinner()
         getAllCharacters()
         setAllCharacters()
-
-        // testando git
     }
 
     override fun onCreateOptionsMenu(menu: Menu, inflater: MenuInflater) {
