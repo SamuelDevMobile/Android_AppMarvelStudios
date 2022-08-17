@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Marvel Studios</string>
+    <string name="save_avenger">Save Avenger</string>
+    <string name="avengers">Avengers</string>
+    <string name="no_characters">No Characters</string>
+    <string name="search">Search</string>
+</resources>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/listCharacterFragment">
+
+    <fragment
+        android:id="@+id/listCharacterFragment"
+        android:name="com.br.appmarvelstudios.ui.fragment.CharacterListFragment"
+        android:label="Character List"
+        tools:layout="@layout/list_character">
+        <action
+            android:id="@+id/action_listCharacterFragment_to_detailCharacterFragment"
+            app:destination="@id/detailCharacterFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailCharacterFragment"
+        android:name="com.br.appmarvelstudios.ui.fragment.CharacterDetailFragment"
+        android:label="Character Detail"
+        tools:layout="@layout/detail_character">
+        <argument
+            android:name="name"
+            app:argType="string" />
+        <argument
+            android:name="description"
+            app:argType="string" />
+        <argument
+            android:name="path"
+            app:argType="string" />
+        <argument
+            android:name="extension"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/listCharacterFavoriteFragment"
+        android:name="com.br.appmarvelstudios.ui.fragment.CharacterListFavoriteFragment"
+        android:label="Character List Favorite"
+        tools:layout="@layout/list_character_favorite"/>
+</navigation>
