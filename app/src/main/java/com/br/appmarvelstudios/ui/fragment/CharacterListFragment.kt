@@ -74,9 +74,7 @@ class CharacterListFragment : Fragment() {
             character?.let { adapterCharacter.updates(it.data.results) }
         }
         viewModel.toastText.observe(viewLifecycleOwner) { text ->
-            text?.let {
-                showMensseger(it)
-            }
+            text?.let { showMensseger(it) }
         }
     }
 
