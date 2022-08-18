@@ -3,10 +3,22 @@
 ## Introdução
 AppMarvel é um aplicativo nativo usado na plataforma Android. Ele pode ser usado para ver e adicionar personagens da Marvel em sua lista de favoritos onde está lista serve apenas para visualização, equanto editar e deletar personagens salvos não é possivel ainda.
 Este diretório é para mostrar exemplos de uso do AppMarvel para visualizar e adicionar personagens da Marvel.
+
+## Configuração do projeto
 Ele pode ser baixado conforme abaixo:
 ```sh
 $ git clone https://github.com/SamuelDevMobile/AppMarvelStudios.git
 ```
+Abra-o no seu Android Studio
+<img width="796" alt="Captura de Tela 2022-08-18 às 16 49 30" src="https://user-images.githubusercontent.com/26841238/185482115-adb2f78d-4b36-4cac-a6b7-d2806b0b7bc5.png">
+
+Execute o projeto no seguinte icone.
+<img width="24" alt="Captura de Tela 2022-08-18 às 16 50 33" src="https://user-images.githubusercontent.com/26841238/185482305-56a82404-d54c-4590-a658-b855461eb1d2.png">
+
+## Visão geral da arquitetura
+Este projeto foi construido com a linguagem Kotlin e construído com a arquitetura MVVM junto com LiveData, Coroutines para uma requisição assíncrona e Retrofit para se comunicar com a API da Marvel e Injeção de dependência com Koin.
+Desenvolvido com Fragments e Navigation para construir um fluxo de telas bem estruturados e com o uso também de DataBinding para manipulação das Views.
+Referente a persistência de dados foi utilizado o Room para salvar os personagens da Marvel, RecyclerView para Listar os personagens na Tela principal e na tela de favoritos e uma NavigationBar para acessar QG dos heróis.
 
 ## Tela Principal
 > Lista os personagens e possui um buscador por nome e também possui uma NavigationBar.
