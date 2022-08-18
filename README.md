@@ -1,6 +1,16 @@
 # Aplicativo do Universo Cinematográfico da Marvel
-### Desenvolvido para plataforma Android e totalmente com a linguagem Koltin e, também possui quase todos os componentes e libs do Android Jetpack
-> Lista dos personagens com um buscador por nome caso precise. ;)
+
+## Introdução
+AppMarvel é um aplicativo nativo usado na plataforma Android. Ele pode ser usado para ver e adicionar personagens da Marvel em sua lista de favoritos onde está lista serve apenas para visualização, equanto editar e deletar personagens salvos não é possivel ainda.
+Este diretório é para mostrar exemplos de uso do AppMarvel para visualizar e adicionar personagens da Marvel.
+Ele pode ser baixado conforme abaixo:
+```sh
+$ git clone https://android.googlesource.com/platform/system/extras
+$ cd extras/simpleperf/demo
+```
+
+## Tela Principal
+> Lista os personagens e possui um buscador por nome e também possui uma NavigationBar.
 
 <img width="324" alt="Captura de Tela 2022-08-18 às 16 11 04" src="https://user-images.githubusercontent.com/26841238/185475318-4df329f9-a963-4341-8ce4-f0458a51944e.png">
 
