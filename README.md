@@ -20,6 +20,19 @@ Este projeto foi construido com a linguagem Kotlin e construído com a arquitetu
 Desenvolvido com Fragments e Navigation para construir um fluxo de telas bem estruturados e com o uso também de DataBinding para manipulação das Views.
 Referente a persistência de dados foi utilizado o Room para salvar os personagens da Marvel, RecyclerView para Listar os personagens na Tela principal e na tela de favoritos e uma NavigationBar para acessar QG dos heróis.
 
+## Fluxo de trabalho de Controle de Versão
+Usamos vagamente a abordagem "Git flow": master é a versão
+branch - deve ser sempre liberável e apenas mesclado em
+quando testamos e verificamos que tudo funciona e está
+bom para ir.
+
+O desenvolvimento diário é feito no ramo de desenvolvimento. Características,
+correções de bugs e outras tarefas são feitas como ramificações do desenvolvimento,
+em seguida, mesclado de volta ao desenvolvimento diretamente ou por meio de solicitações pull.
+
+Mantenha os commits atômicos e autoexplicativos, use o rebase para limpar
+até ramificações confusas antes de se fundir novamente no desenvolvimento.
+
 ## Tela Principal
 > Lista os personagens e possui um buscador por nome e também possui uma NavigationBar.
 
