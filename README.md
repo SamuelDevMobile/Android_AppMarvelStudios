@@ -5,8 +5,7 @@ AppMarvel é um aplicativo nativo usado na plataforma Android. Ele pode ser usad
 Este diretório é para mostrar exemplos de uso do AppMarvel para visualizar e adicionar personagens da Marvel.
 Ele pode ser baixado conforme abaixo:
 ```sh
-$ git clone https://android.googlesource.com/platform/system/extras
-$ cd extras/simpleperf/demo
+$ git clone https://github.com/SamuelDevMobile/AppMarvelStudios.git
 ```
 
 ## Tela Principal
