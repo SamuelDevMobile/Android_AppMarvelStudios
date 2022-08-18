@@ -33,6 +33,13 @@ em seguida, mesclado de volta ao desenvolvimento diretamente ou por meio de soli
 Mantenha os commits atômicos e autoexplicativos, use o rebase para limpar
 até ramificações confusas antes de se fundir novamente no desenvolvimento.
 
+## Ambiente de teste
+```
+Android Studio Chipmunk | 2021.2.1 Patch 1
+dispositivo de teste: Android O (Google Pixel 2)
+Certifique-se de que seu dispositivo tenha a versão Android >= 21.
+```
+
 ## Tela Principal
 > Lista os personagens e possui um buscador por nome e também possui uma NavigationBar.
 
