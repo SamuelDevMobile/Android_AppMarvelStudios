@@ -1,4 +1,5 @@
 # Aplicativo do Universo Cinematográfico da Marvel
+### Desenvolvido para plataforma Android e totalmente com a linguagem Koltin e, também possui quase todos os componentes e libs do Android Jetpack
 > Lista dos personagens com um buscador por nome caso precise. ;)
 
 <img width="324" alt="Captura de Tela 2022-08-18 às 16 11 04" src="https://user-images.githubusercontent.com/26841238/185475318-4df329f9-a963-4341-8ce4-f0458a51944e.png">
