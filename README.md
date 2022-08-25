@@ -2,7 +2,7 @@
 
 ## Introdução
 AppMarvel é um aplicativo nativo usado na plataforma Android. Ele pode ser usado para ver e adicionar personagens da Marvel em sua lista de favoritos onde está lista serve apenas para visualização, equanto editar e deletar personagens salvos não é possivel ainda.
-Este diretório é para mostrar exemplos de uso do AppMarvel para visualizar e adicionar personagens da Marvel.
+Este diretório é para mostrar exemplos de uso do AppMarvel para visualizar e adicionar personagens da Marvel. 
 
 ## Configuração do projeto
 Ele pode ser baixado conforme abaixo:
